@@ -1,0 +1,18 @@
+@import 'common';
+@for $i from 10 through 52 {
+	.fz-#{$i} {
+		font-size: #{$i}px;
+	}
+}
+
+table {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+table td {
+    padding: 5px;
+}
+.topLine {
+    color: #ff0000;
+    text-transform: uppercase;
+}
